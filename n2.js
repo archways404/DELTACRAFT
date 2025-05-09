@@ -1,3 +1,6 @@
+import chalk from 'chalk';
+import Table from 'cli-table3';
+
 // COMPONENT BASE PRICES
 const E_Type_Canister = 59271;
 const Hammer_Drill = 29135;
@@ -350,24 +353,56 @@ const calculateProfit = (recipe) => {
 		cost += unitPrice * qty;
 	}
 
-	const marketSellValue = recipe.quantity * recipe.marketPrice * 0.87;
+	const tax = recipe.quantity * recipe.marketPrice * 0.13;
+	const sellValue = recipe.quantity * recipe.marketPrice;
+	const marketSellValue = sellValue - tax;
 	const profit = marketSellValue - cost;
 
 	return {
 		name: recipe.name,
 		type: recipe.type,
 		quantity: recipe.quantity,
-		cost: Math.round(cost),
-		sellPrice: Math.round(marketSellValue),
-		profit: Math.round(profit),
-		profitPerUnit: Math.round(profit / recipe.quantity),
+		cost: cost,
+		tax: tax,
+		sellPrice: marketSellValue,
+		profit: profit,
+		profitPerUnit: profit / recipe.quantity,
 	};
 };
 
-// Run
-const results = recipes.map(calculateProfit);
+// Run + sort
+const results = recipes.map(calculateProfit).sort((a, b) => b.profit - a.profit);
 
-// Sort by total profit (descending)
-results.sort((a, b) => b.profit - a.profit);
+// Create colored table
+const table = new Table({
+	head: [
+		chalk.blue('Name'),
+		chalk.yellow('Type'),
+		chalk.green('Qty'),
+		chalk.cyan('Cost'),
+		chalk.red('Tax'),
+		chalk.magenta('Sell (after tax)'),
+		chalk.greenBright('Profit'),
+		chalk.gray('Profit/Unit'),
+	],
+	colWidths: [25, 10, 6, 12, 12, 18, 12, 14],
+	wordWrap: true,
+});
 
-console.table(results);
+// Format + insert each row
+results.forEach((r) => {
+	table.push([
+		r.name,
+		r.type,
+		r.quantity,
+		r.cost.toLocaleString(),
+		Math.round(r.tax).toLocaleString(),
+		Math.round(r.sellPrice).toLocaleString(),
+		Math.round(r.profit) >= 0
+			? chalk.green(`+${Math.round(r.profit).toLocaleString()}`)
+			: chalk.red(Math.round(r.profit).toLocaleString()),
+		Math.round(r.profitPerUnit),
+	]);
+});
+
+console.log(table.toString());
