@@ -1,0 +1,174 @@
+7.62x51mm M62 (120) - GOLD
+ - 3x Premium Fuel
+ - 1x Basic Ammo Production Part
+ - 1x Gunpowder
+ - 3x Basic Fuel
+
+7.62x51mm M80 (180) - PURPLE
+ - 3x Intermediate Ammo Production Part
+ - 1x Gunpowder
+ - 1x Basic Fuel
+
+--------------------------------------------------
+
+7.62x54R BT (120) - GOLD
+ - 3x Premium Fuel
+ - 3x Basic Ammo Production Part
+ - 4x Basic Fuel
+
+7.62x54R LPS (180) - PURPLE
+ - 3x Intermediate Ammo Production Part
+ - 1x Gunpowder
+ - 1x Basic Fuel
+ - 1x Angle Grinder
+
+--------------------------------------------------
+
+7.62x39mm AP (120) - GOLD
+ - 2x Premium Fuel
+ - 2x Basic Ammo Production Part
+ - 2x Basic Fuel
+
+7.62x39mm BP (180) - PURPLE
+ - 3x Intermediate Ammo Production Part
+ - 1x Basic Fuel
+ - 30x (7.62x39mm T45M)
+ - 1x Angle Grinder
+
+--------------------------------------------------
+
+5.45x39mm BS (120) - GOLD
+ - 2x Premium Fuel
+ - 3x Basic Fuel
+ - 2x Angle Grinder
+
+5.45x39mm BT (180) - PURPLE
+ - 2x Intermediate Ammo Production Part
+ - 1x Basic Ammo Production Part
+ - 3x Angle Grinder
+
+--------------------------------------------------
+
+5.56x45mm M995 (120) - GOLD
+ - 2x Premium Fuel
+ - 2x Basic Ammo Production Part
+ - 2x Angle Grinder
+
+5.56x45mm M855A1 (180) - PURPLE
+ - 2x Intermediate Ammo Production Part
+ - 1x Basic Ammo Production Part
+ - 1x Power Supply
+ - 2x Angle Grinder
+
+--------------------------------------------------
+
+5.7x28mm SS190 (120) - GOLD
+ - 2x Premium Fuel
+ - 2x Gunpowder
+ - 1x Angle Grinder
+
+5.7x28mm SS193 (180) - PURPLE
+ - 2x Intermediate Ammo Production Part
+ - 1x Gunpowder
+ - 60x (5.7x28mm SS197SR)
+ - 1x Angle Grinder
+
+--------------------------------------------------
+
+4.6x30mm AP SX (150) - GOLD
+ - 2x Premium Fuel
+ - 1x Digital Caliper
+ - 2x Basic Fuel
+ - 2x Angle Grinder
+
+4.6x30mm FMJ SX (180) - PURPLE
+ - 2x Intermediate Ammo Production Part
+ - 1x Basic Ammo Production Part
+
+--------------------------------------------------
+
+9x39mm BP (120) - GOLD
+ - 2x Premium Fuel
+ - 1x Basic Ammo Production Part
+ - 2x Basic Fuel
+
+9x39mm SP6 (180) - PURPLE
+ - 3x Intermediate Ammo Production Part
+ - 2x Basic Fuel
+
+--------------------------------------------------
+
+5.8x42mm DVC12 (120) - GOLD
+ - 2x Premium Fuel
+ - 2x Basic Ammo Production Part
+ - 1x Gunpowder
+ - 2x Angle Grinder
+
+5.8x42mm DBP10 (180) - PURPLE
+ - 2x Intermediate Ammo Production Part
+ - 2x Basic Fuel
+ - 150x (5.8x42mm DBP87)
+
+--------------------------------------------------
+
+
+.300 BLK (120) - GOLD
+ - 2x Premium Fuel
+ - 1x Basic Ammo Production Part
+ - 3x Basic Fuel
+ - 1x Angle Grinder
+
+.300 BLK (180) - PURPLE
+ - 2x Intermediate Ammo Production Part
+ - 1x Cordless Portable Drill
+ - 1x Basic Fuel
+
+--------------------------------------------------
+
+12.7x55mm PS12B (90) - GOLD
+ - 4x Premium Fuel
+ - 2x Digital Caliper
+ - 5x Basic Fuel
+
+12.7x55mm PS12 (120) - PURPLE
+ - 4x Intermediate Ammo Production Part
+ - 1x Basic Ammo Production Part
+ - 1x Audio Player
+ - 2x Electric Breaching Hammer
+
+12.7x55mm PD12 (120) - PURPLE
+ - 3x Intermediate Ammo Production Part
+ - 3x Basic Ammo Production Part
+ - 3x Gunpowder
+ - 1x Angle Grinder
+
+--------------------------------------------------
+
+6.8x51mm Hybrid (120) - GOLD
+ - 2x Premium Fuel
+ - 3x Basic Ammo Production Part
+ - 3x Gunpowder
+
+6.8x51mm FMJ (180) - PURPLE
+ - 3x Intermediate Ammo Production Part
+ - 3x Basic Fuel
+ - 1x Angle Grinder
+ - 2x Electric Breaching Hammer
+
+--------------------------------------------------
+
+.45 ACP AP (180) - PURPLE (MAX)
+ - 3x Intermediate Ammo Production Part
+ - 1x Basic Fuel
+ - 20x (.45 ACP JHP)
+ - 1x Angle Grinder
+
+--------------------------------------------------
+
+9x19mm PBP (180*) - PURPLE (MAX)
+ - 2x Intermediate Ammo Production Part
+ - 1x Gunpowder
+ - 30x (9x19mm PST)
+ - 3x Angle Grinder
+
+--------------------------------------------------
